@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for='currency-from'>From: </label>
+        <input type='text' id='currency-from'><br>
+        <label for='currency-to'>To: </label>
+        <input type='text' id='currency-to'><br>
+        <label for="currency-input">Enter Amount: </label><br>
+        <input type="number" id='currency-input'><br>
+        </form><br>
+        <button id="after-btn">Submit</button>
+        <div id='currency-converted' hidden>
+        <p><span id='popupMsg'></span></p>
+        <br>
+        <p><span id='time'></span></p>
+        </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
