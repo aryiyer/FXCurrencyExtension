@@ -1,7 +1,7 @@
 const afterBtn = document.getElementById("after-btn");
 
 afterBtn.addEventListener('click',  async function(){
-    const query = 'http://data.fixer.io/api/latest?access_key=785f48c604569e495684e74dc8ba970d&format=1';
+    const query = 'API_KEY';
     let resp = await fetch(query);
     const data = await resp.json();
     const popupMsg = document.getElementById('popupMsg');
